@@ -57,6 +57,8 @@ Before using any of these files, make sure you have similar hardware.
 * Disable : Always on usb, WiGig, WWAN, Anti Theft, Intel SGX, Computrace, Device Guard, Secure Boot,
 * Boot    : include only _ATA Drive_ & _FD HDD_, UEFI only, CSM = No
 
+![X260 Catalina](https://user-images.githubusercontent.com/85201626/120451713-dc76b580-c3bb-11eb-8122-e78a243cb831.png)
+
 ***Worked***
 - [x] iGPU with external monitor
   > only work after waking from sleep
