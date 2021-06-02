@@ -91,3 +91,5 @@ Before using any of these files, make sure you have similar hardware.
 * Picel Media Group, Youtube Channel [Belajar bareng cara install Hackintosh Catalina (OpenCore) di Lenovo T440p](https://youtu.be/zdcPPpd-g8I)
 * Hackintosh Telegram group, [H4CK1NTOSH L0V3R](https://t.me/HackintoshLover)
 * MSzturc, Github [Lenovo-T460-OpenCore](https://github.com/MSzturc/Lenovo-T460-OpenCore)
+* UEFI Dualboot macOS with Windows 10 in one SSD [Brandon Yen YT Channel](https://youtu.be/ztxHRGdX0Sw)
+* Opencore preparations [Dortania Getting Started](https://dortania.github.io/getting-started/)
