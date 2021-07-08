@@ -32,7 +32,8 @@ Before using any of these files, make sure you have similar hardware.
     > Why NTFS over exFAT for Data? Well, formatted it with exFAT may require more tweaks...
 * Card Reader  : Realtek RTS522A PCI Express Card Reader
 * Web Cam      : 720p
-* Wireless LAN : Intel ® Dual Band Wireless-AC 8260 (with bluetooth)
+* Wireless LAN : ~~Intel ® Dual Band Wireless-AC 8260 (with bluetooth)~~ changed to Broadcom_BCM943224PCIEBT2
+ > use with [M.2 NGFF Key A/E/A+E to Mini PCI-E Adapter](https://www.aliexpress.com/i/32946029345.html)
 * Ethernet     : Intel Ethernet Connection I219-LM
 * Bootloader   : OpenCore 0.6.8
 * OS Version   : ```macOS Catalina 10.15.7 (Build 19H15)```
@@ -61,7 +62,7 @@ Before using any of these files, make sure you have similar hardware.
 
 ***Worked***
 - [x] iGPU with external monitor
-  > only work after waking from sleep
+  ~~> only work after waking from sleep~~ change VGA-to-miniDP adapter with VGA-to-HDMI. Work without enter sleep and wake.
 - [x] CPU power management
 - [x] Backlight
 - [x] Webcam
@@ -72,18 +73,21 @@ Before using any of these files, make sure you have similar hardware.
 - [x] All USB Ports
 - [x] Battery notification: charging, full charge, etc
 - [x] Trackpad, trackpoint, 3 physical button, & gesture (Trackpad showed in System Preferences)
-- [x] Keyboard --remap with [Karabiner-Elements](https://karabiner-elements.pqrs.org) 
+- [x] ~~Keyboard --remap with [Karabiner-Elements](https://karabiner-elements.pqrs.org)~~ now use SSDT-KBRD & ThinkpadAssistant from MSzturc
 - [x] Power management
 - [x] iMessage, Facetime, Appstore
 - [x] DRM Support, tested based on [Dortania Opencore Post Install](https://dortania.github.io/OpenCore-Post-Install/universal/drm.html#testing-drm)
-- [x] Card reader 
+- [x] Card reader
+- [x] Logitech Pebble mouse with Bluetooth connection
+- [x] Handoff (& universal clipboard)
+- [x] Airdrop
 
 
 **_not yet_ Worked or May Not Work**
-* Logitech Pebble mouse with Bluetooth connection
+* ~~Logitech Pebble mouse with Bluetooth connection~~
 > Logitech Pebble are known have problem with Catalina, some source says
-* Handoff
-* Airdrop
+* ~~Handoff~~
+* ~~Airdrop~~
 
 **Steps will written down in seperate .md files**
 
@@ -93,3 +97,7 @@ Before using any of these files, make sure you have similar hardware.
 * MSzturc, Github [Lenovo-T460-OpenCore](https://github.com/MSzturc/Lenovo-T460-OpenCore)
 * UEFI Dualboot macOS with Windows 10 in one SSD [Brandon Yen YT Channel](https://youtu.be/ztxHRGdX0Sw)
 * Opencore preparations [Dortania Getting Started](https://dortania.github.io/getting-started/)
+
+**Note:**
+* After replace wifi card to Broadcom and get Airdrop + Handoff working, I rarely boot to windows 10. So I decided to reinstall and format SSD fully for Catalina.
+* I installed virtualbox and Windows 7 just to get one or two windows app for daily work. And found it was more comfortable this way.
