@@ -35,7 +35,7 @@ Before using any of these files, make sure you have similar hardware.
 * Wireless LAN : ~~Intel ® Dual Band Wireless-AC 8260 (with bluetooth)~~ changed to Broadcom_BCM943224PCIEBT2
  > use with [M.2 NGFF Key A/E/A+E to Mini PCI-E Adapter](https://www.aliexpress.com/i/32946029345.html)
 * Ethernet     : Intel Ethernet Connection I219-LM
-* Bootloader   : OpenCore 0.6.8
+* Bootloader   : OpenCore ~~0.6.8~~ 0.7.0
 * OS Version   : ```macOS Catalina 10.15.7 (Build 19H15)```
 * Installer    : GibMacOS
 
@@ -85,7 +85,6 @@ Before using any of these files, make sure you have similar hardware.
 
 **_not yet_ Worked or May Not Work**
 * ~~Logitech Pebble mouse with Bluetooth connection~~
-> Logitech Pebble are known have problem with Catalina, some source says
 * ~~Handoff~~
 * ~~Airdrop~~
 
