@@ -67,9 +67,12 @@ Before using any of these files, make sure you have similar hardware.
 - [x] Backlight
 - [x] Webcam
 - [x] Sound: speaker, microphone
-- [x] Wifi
+- [x] Wifi: I use itlwm.kext + Heliport.app
 - [x] Ethernet / LAN
 - [x] Bluetooth
+  - [x] Connect with iPhone
+  - [x] Connect with RedmiGo (Bluetooth indicator says not connected, but I can send files)
+  - [x] Connect with Simbadda BT Speaker (if you already pair with Windows, you may require to remove it first in macOS, then pair again)
 - [x] All USB Ports
 - [x] Battery notification: charging, full charge, etc
 - [x] Trackpad, trackpoint, 3 physical button, & gesture (Trackpad showed in System Preferences)
